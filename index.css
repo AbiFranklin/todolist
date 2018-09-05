@@ -4,7 +4,7 @@ body {
 
 .container {
   background-color: aliceblue;
-  width: 80%;
+  width: 60%;
   margin: 10px auto;
   display: flex;
   justify-content: flex-start;
