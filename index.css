@@ -1,0 +1,56 @@
+body {
+  background-color: lightblue;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+form {
+  width: 100%;
+  height: 3vh;
+  border-radius: 5px;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+    width: 80%;
+    font-style: italic;
+}
+
+.btn {
+    background-color: azure;
+    box-shadow: 1px 1px 1px black;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+}
+
+.toDoItem {
+    height: 30px;
+    width: 98%;
+    background-color: azure;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.check, .close{
+    cursor: pointer;
+}
