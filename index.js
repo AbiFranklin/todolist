@@ -24,6 +24,7 @@ function addToDoItem() {
 addBtn.addEventListener('click', addToDoItem);
 document.addEventListener('keydown', function(event) {
     if (event.which === 13){    
+        event.preventDefault();
         addToDoItem();
     }
 })
